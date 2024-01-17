@@ -1,20 +1,19 @@
 body {
-    background-image: url(img/bgblue.jpg);
+    background: linear-gradient(45deg,#0039a3,#c73a02);
     background-size: cover;
     background-position: center;
     font-family: 'Poppins', sans-serif;
 }
 
 .container {
-    width: 300px;
+    width: 400px;
     margin: 20vh auto 0 auto;
-    padding: 20px;
+    padding: 150px;
     background-color: whitesmoke;
     border-radius: 4px;
-    font-size: 12px;
+    font-size: 25px;
     text-align: center;
     position:relative;
-
 }
 
 #form h1 {

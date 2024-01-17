@@ -9,83 +9,83 @@ import pandas as pd
 cap = cv2.VideoCapture(0)
 
 personl_name = "cee"
-person_image = face_recognition.load_image_file("/hellotest1-main/hellotest1-main/photos/cee.jpg")
+person_image = face_recognition.load_image_file("./photos/cee.jpg")
 persponl_face_encoding = face_recognition.face_encodings(person_image)[0]
 
 personl2_name = "bank"
-person2_image = face_recognition.load_image_file("/hellotest1-main/hellotest1-main/photos/bank.jpg")
+person2_image = face_recognition.load_image_file("./photos/bank.jpg")
 persponl2_face_encoding = face_recognition.face_encodings(person2_image)[0]
 
 personl3_name = "jino"
-personl3_image = face_recognition.load_image_file("/hellotest1-main/hellotest1-main/photos/jino.jpg")
+personl3_image = face_recognition.load_image_file("./photos/jino.jpg")
 persponl3_face_encoding  = face_recognition.face_encodings(personl3_image)[0]
 
 personl4_name = "kao"
-personl4_image = face_recognition.load_image_file("/hellotest1-main/hellotest1-main/photos/kao.jpg")
+personl4_image = face_recognition.load_image_file("./photos/kao.jpg")
 persponl4_face_encoding = face_recognition.face_encodings(personl4_image)[0]
 
 personl5_name = "nakrop"
-personl5_image = face_recognition.load_image_file("/hellotest1-main/hellotest1-main/photos/nakrop.jpg")
+personl5_image = face_recognition.load_image_file("./photos/nakrop.jpg")
 persponl5_face_encoding = face_recognition.face_encodings(personl5_image)[0]
 
 personl6_name = "Pan"
-personl6_image = face_recognition.load_image_file("/hellotest1-main/hellotest1-main/photos/Pan.jpg")
+personl6_image = face_recognition.load_image_file("./photos/Pan.jpg")
 persponl6_face_encoding = face_recognition.face_encodings(personl6_image)[0]
 
 personl7_name = "susi"
-personl7_image = face_recognition.load_image_file("/hellotest1-main/hellotest1-main/photos/susi.jpg")
+personl7_image = face_recognition.load_image_file("./photos/susi.jpg")
 persponl7_face_encoding = face_recognition.face_encodings(personl7_image)[0]
 
 personl8_name = "pinky"
-personl8_image = face_recognition.load_image_file("/hellotest1-main/hellotest1-main/photos/pinky.jpg")
+personl8_image = face_recognition.load_image_file("./photos/pinky.jpg")
 persponl8_face_encoding = face_recognition.face_encodings(personl8_image)[0]
 
 personl9_name = "mint"
-personl9_image = face_recognition.load_image_file("/hellotest1-main/hellotest1-main/photos/mint.jpg")
+personl9_image = face_recognition.load_image_file("./photos/mint.jpg")
 persponl9_face_encoding = face_recognition.face_encodings(personl9_image)[0]
 
 personl10_name = "bew"
-personl10_image = face_recognition.load_image_file("/hellotest1-main/hellotest1-main/photos/bew.jpg")
+personl10_image = face_recognition.load_image_file("./photos/bew.jpg")
 persponl10_face_encoding = face_recognition.face_encodings(personl10_image)[0]
 
 personl11_name = "ingk 1"
-personl11_image = face_recognition.load_image_file("/hellotest1-main/hellotest1-main/photos/ingk 1.jpg")
+personl11_image = face_recognition.load_image_file("./photos/ingk 1.jpg")
 persponl11_face_encoding = face_recognition.face_encodings(personl11_image)[0]
 
 personl12_name = "ingk 2"
-personl12_image = face_recognition.load_image_file("/hellotest1-main/hellotest1-main/photos/ingk 2.jpg")
+personl12_image = face_recognition.load_image_file("./photos/ingk 2.jpg")
 persponl12_face_encoding = face_recognition.face_encodings(personl12_image)[0]
 
 personl13_name = "Jaja"
-personl13_image = face_recognition.load_image_file("/hellotest1-main/hellotest1-main/photos/Jaja.jpg")
+personl13_image = face_recognition.load_image_file("./photos/Jaja.jpg")
 persponl13_face_encoding = face_recognition.face_encodings(personl13_image)[0]
 
 personl14_name = "Cherry"
-personl14_image = face_recognition.load_image_file("/hellotest1-main/hellotest1-main/photos/Cherry.jpg")
+personl14_image = face_recognition.load_image_file("./photos/Cherry.jpg")
 persponl14_face_encoding = face_recognition.face_encodings(personl14_image)[0]
 
 personl15_name = "Kuk"
-personl15_image = face_recognition.load_image_file("/hellotest1-main/hellotest1-main/photos/Kuk.jpg")
+personl15_image = face_recognition.load_image_file("./photos/Kuk.jpg")
 persponl15_face_encoding = face_recognition.face_encodings(personl15_image)[0]
 
 personl16_name = "plng"
-personl16_image = face_recognition.load_image_file("/hellotest1-main/hellotest1-main/photos/plng.jpg")
+personl16_image = face_recognition.load_image_file("./photos/plng.jpg")
 persponl16_face_encoding = face_recognition.face_encodings(personl16_image)[0]
 
 personl17_name = "Soda"
-personl17_image = face_recognition.load_image_file("/hellotest1-main/hellotest1-main/photos/Soda.jpg")
+personl17_image = face_recognition.load_image_file("./photos/Soda.jpg")
 persponl17_face_encoding = face_recognition.face_encodings(personl17_image)[0]
 
 personl18_name = "pleng"
-personl18_image = face_recognition.load_image_file("/hellotest1-main/hellotest1-main/photos/pleng.jpg")
+personl18_image = face_recognition.load_image_file("./photos/pleng.jpg")
 persponl18_face_encoding = face_recognition.face_encodings(personl18_image)[0]
 
 personl19_name = "beam"
-personl19_image = face_recognition.load_image_file("/hellotest1-main/hellotest1-main/photos/beam.jpg")
+personl19_image = face_recognition.load_image_file("./photos/beam.jpg")
 persponl19_face_encoding = face_recognition.face_encodings(personl19_image)[0]
 
 personl20_name = "Oon"
-personl20_image = face_recognition.load_image_file("/hellotest1-main/hellotest1-main/photos/Oon.jpg")
+personl20_image = face_recognition.load_image_file("./photos/Oon.jpg")
 persponl20_face_encoding = face_recognition.face_encodings(personl20_image)[0]
 
 
